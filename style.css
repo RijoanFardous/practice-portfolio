@@ -67,11 +67,15 @@ a:hover {
 
 }
 
-.first-exp {
+.first-exp, 
+.sec-exp {
     border-right: solid 10px;
     padding: 2%;
     box-shadow: black 3px 3px 20px;
     border-radius: 10px;
+}
+.first-exp {
+    
     border-image: #FDC830;  /* fallback for old browsers */
     border-image: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
     border-image: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
@@ -79,14 +83,20 @@ a:hover {
 }
 
 .sec-exp {
-    border-right: solid 10px;
-    padding-left: 2%;
-    padding: 2%;
-    box-shadow: black 3px 3px 20px;
-    border-radius: 10px;
     border-image: #E44D26;  /* fallback for old browsers */
     border-image: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
     border-image: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-image-slice: 1;
 
+}
+
+.first-exp:hover, .sec-exp:hover {
+    box-shadow: black 5px 5px 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 1%;
 }
