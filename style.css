@@ -27,6 +27,12 @@ body {
     background-position: right;
 }
 
+.bottom-part {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -58,5 +64,29 @@ a:hover {
     background: #FC5C7D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.first-exp {
+    border-right: solid 10px;
+    padding: 2%;
+    box-shadow: black 3px 3px 20px;
+    border-radius: 10px;
+    border-image: #FDC830;  /* fallback for old browsers */
+    border-image: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    border-image: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    border-image-slice: 1;
+}
+
+.sec-exp {
+    border-right: solid 10px;
+    padding-left: 2%;
+    padding: 2%;
+    box-shadow: black 3px 3px 20px;
+    border-radius: 10px;
+    border-image: #E44D26;  /* fallback for old browsers */
+    border-image: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+    border-image: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-image-slice: 1;
 
 }
